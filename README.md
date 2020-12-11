@@ -26,5 +26,5 @@ Picture of WireShark sniffing ICMP Echo-ping and ICMP Echo-reply. Where the Echo
 ## Prereqs for running ##
 - pip install Scapy
 - Disable pings on the machine to asure our program is hit
--- For windows: `netsh advfirewall firewall add rule name="ICMP Allow incoming V4 echo request" protocol=icmpv4:8,any dir=in action=block`
--- For linux: `echo"1" > /proc/sys/net/ipv4/icmp_echo_ignore_all`
+  - For windows: `netsh advfirewall firewall add rule name="ICMP Allow incoming V4 echo request" protocol=icmpv4:8,any dir=in action=block`
+  - For linux: `echo"1" > /proc/sys/net/ipv4/icmp_echo_ignore_all`
