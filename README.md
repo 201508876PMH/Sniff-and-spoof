@@ -4,7 +4,7 @@ The objective of this project is to spoof IP packets with an arbitrary source IP
 Furthermore we will collect evidence of the malicious behavior through Wireshark and screenshots of replies received by the ping program running in the originating host.
 
 
-# Resuls
+# Resulst
 #### WireShark image 
 
 Picture of WireShark sniffing ICMP Echo-ping and ICMP Echo-reply. Where the Echo-reply packet is sent back from our program<br />
