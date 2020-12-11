@@ -8,13 +8,13 @@ Furthermore we will collect evidence of the malicious behavior through Wireshark
 #### WireShark image 
 
 Picture of WireShark sniffing ICMP Echo-ping and ICMP Echo-reply. Where the Echo-reply packet is sent back from our program<br />
-<img src="https://i.imgur.com/Uq6cX39.png" width="500">
+<img src="https://i.imgur.com/Uq6cX39.png" width="800">
 
 #### Program output
 
 Picture of our program output. We send back an Echo-reply of type 0, but could also spoof the system administrator by sending abck a type 3 "Destination Unreachable" or a type 11 "Time exceeded".<br />
 
-<img src="https://i.imgur.com/EWdkt9C.png" width="500">
+<img src="https://i.imgur.com/EWdkt9C.png" width="800">
 
 ## Prereqs for running ##
 - pip install Scapy
