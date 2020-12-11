@@ -4,7 +4,7 @@ The objective of this project is to spoof IP packets with an arbitrary source IP
 Furthermore we will collect evidence of the malicious behavior through Wireshark and screenshots of replies received by the ping program running in the originating host.
 
 
-# Resulst
+# Results
 #### Pinging the target machine
 
 Picture of our program running in the background and us pinging the target machine.<br />
